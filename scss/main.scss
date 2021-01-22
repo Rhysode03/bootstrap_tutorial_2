@@ -1,3 +1,32 @@
+@import "functions";
+@import "variables";
+
+$font-family-sans-serif: "Mukta 500", sans-serif;
+$enable-responsive-font-sizes: true;
+
+$theme-color: (
+  "primary": #7ac3e6,
+  "secondary": #dff1f9,
+  "success": #338d99,
+  "info": #c9c6bf,
+  "purple": #6632b1,
+  "green": #8fd957,
+);
+
+$link-color: theme-color("green");
+$link-hover-color: darken($link-color 15%);
+
+$text-muted: $gray-700;
+
+$progress-height: 2rem;
+
+@import "bootstrap";
+
+/****************
+GLOBAL STYLES
+****************/
+
 body {
-    background-color: blue;
+  font-family: $font-family-sans-serif;
+  padding-top: 6rem;
 }
