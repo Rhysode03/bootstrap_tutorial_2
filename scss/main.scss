@@ -286,3 +286,74 @@ BTN HOVER EFFECT
   -webkit-transition-delay:.2s;
   transition-delay:.2s;
   }
+
+  /******************
+CITIES CAROUSEL
+***************/
+
+  .cities .fa-chevron-right {
+    color: orange !important;
+  }
+
+  .cities .fa-chevron-left {
+    color: orange !important;
+  }
+
+  .cities ul.carousel-indicators li {
+    background-color: orange !important;
+  }
+
+  /******************
+TESTIMONIAL CAROUSEL
+***************/
+
+  .testimonials .carousel-item {
+    height: 40vh;
+  }
+
+  .testimonials .fa-chevron-circle-left {
+    color: red !important;
+  }
+
+  .testimonials .fa-chevron-circle-right {
+    color: red !important;
+  }
+
+  .testimonials ul.carousel-indicators li {
+    background-color: red !important;
+  }
+
+  .caption h5 {
+    font-weight: 700;
+  }
+
+/******************
+MEDIA QUERIES
+***************/
+
+@media screen and (max-width: 576px) {
+  html, body {
+    font-size: 14px;
+  }
+
+  .masthead {
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+  url(../images/responsive_design_mobile.jpg)center/cover;
+  height: 90vh;
+  }
+
+  .testimonials .carousel-item {
+    height: 65vh;
+  }
+
+  .testimonials img {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+
+  .testimonials .fa-chevron-circle-left,
+  .testimonials .fa-chevron-circle-right {
+    font-size: 2rem;
+  }
+}
